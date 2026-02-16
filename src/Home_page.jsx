@@ -23,6 +23,7 @@ import { Divider } from 'primereact/divider';
 
 const Home_page = () => {
       const s="success"
+      const a1="fail"
     const items = [
 
         {
