@@ -1,0 +1,283 @@
+.nav1{
+  font-weight: bold;
+  gap:6em
+}
+.text{
+  font-size: 3.3em;
+  margin: 0px; 
+}
+.text6{
+  font-Size: "1.2em"
+}
+.text1{
+  font-size: 1.2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img_set
+{
+  background-image: url("./Images/img_2.jpg");
+  height: 100vh;
+  
+}
+.btn {
+  background: #22c55e;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: none;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(245, 245, 245, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(249, 248, 248, 0);
+  }
+}
+.text2{
+font-size: 2.4em;
+}
+.text3{
+  font-size: 1.2em;
+ color: gray;
+ line-height: 1.8;
+}
+.arrange{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4em;
+}
+.arrange1{
+  margin-right: 2em;
+}
+.img_set1{
+  width: 100%;
+}
+.img_set2{
+  height: 120px;
+}
+.arrange2{
+  height: 390px;
+  display: flex;
+
+}
+.text4{
+  font-size: 2.6em;
+  margin: 0px;
+}
+.arrange3:hover{
+ transform: translateY(-5px);
+ transition: 0.3s;
+ box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+ background-color: lightgray;
+}
+
+.arrange4{
+  width: 90%;
+  margin-top: 2em;
+  display: flex;
+  gap:2em;
+  direction: none;
+}
+.arr:hover{
+  background-color: lightgray;
+}
+.size1{
+  height: 140px;
+  width: 420px;
+}
+.size{
+  height: 120px;
+  width: 130px;
+  margin-left: 4em;
+}
+.text5{
+  font-size: 1.3em;
+ color: white;
+}
+.footer{
+
+  background-color:#3a3a3a;
+  padding: 1em;
+}
+.divid{
+  width: 100%;
+}
+.custom-divider.p-divider-horizontal:before {
+    border-top: 1px solid rgba(255, 255, 255, 0.171);
+}
+.main_box{
+  width: 100%;
+  height: 100vh;
+}
+.col{
+  background-color: white;
+}
+.sty{
+ position: fixed;
+ width: 100%;
+ top: 0;
+ left: 0;
+ z-index: 1000;
+
+}
+.hide{
+    display: none;
+  }
+
+@media screen and (min-width:300px) and (max-width:500px){
+  
+.text_1{
+  font-size: 1em;
+}
+.nav1{
+  font-weight: bold; 
+   gap: 1em;
+}
+.img_set3{
+  height: 2.5em;
+  margin-left: 1em;
+}
+.text{
+  font-size: 1.5em;
+  margin: 0px; 
+}
+.text6{
+  font-Size: 1.2em
+}
+.text1{
+  font-size: 0.9em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img_set
+{
+  background-image: url("./Images/img_2.jpg");
+  height: 100vh;
+  
+}
+.btn {
+  background: #22c55e;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+ 
+  margin-Left: 2em;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(245, 245, 245, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(249, 248, 248, 0);
+  }
+}
+.text2{
+font-size: 1.2em;
+}
+.text3{
+  font-size: 1em;
+ color: gray;
+ line-height: 1.8;
+}
+.arrange{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+  margin-top: 4em;
+}
+.arrange1{
+  margin-right: 2em;
+}
+.img_set1{
+  width: 100%;
+}
+.img_set2{
+  height: 120px;
+}
+.arrange2{
+  min-height: 390px;
+  flex-direction: row;
+}
+.text4{
+  font-size: 1.2em;
+  margin: 0px;
+}
+.arrange3:hover{
+ transform: translateY(-5px);
+ transition: 0.3s;
+ box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+ background-color: lightgray;
+}
+
+.arrange4{
+  width: 100%;
+  margin-top: 2em;
+  display: flex;
+  gap:2em;
+  direction: none;
+}
+.arr:hover{
+  background-color: lightgray;
+}
+.size1{
+  height: 120px;
+  width: 260px;
+}
+.size{
+  height: 120px;
+  width: 110px;
+ margin-left: 1em;
+}
+.text5{
+  font-size: 1em;
+ color: white;
+}
+.footer{
+
+  background-color:#3a3a3a;
+  padding: 1em;
+}
+.divid{
+  width: 100%;
+}
+.main_box{
+  width: 100%;
+  height: 5000px;
+
+ 
+}
+.hide1{
+    display: none;
+  }
+  .p-carousel .p-carousel-item {
+    flex: 0 0 100%;
+}
+.text0{
+  font-size: 0.8em;
+}
+.text00{
+  font-size: 1.5em;
+}
+.sty{
+ position: fixed;
+ top: 0;
+ left: 0;
+
+}
+
+
+}
