@@ -22,6 +22,7 @@ import { Swipe } from './Swipe';
 import { Divider } from 'primereact/divider';
 
 const Home_page = () => {
+      const s="success"
     const items = [
 
         {
