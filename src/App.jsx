@@ -7,7 +7,7 @@ import Home_page from './Home_page'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const s="success"
   return (
     <>
     <BrowserRouter>
