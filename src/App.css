@@ -127,9 +127,7 @@ font-size: 2.4em;
  z-index: 1000;
 
 }
-.hide{
-    display: none;
-  }
+
 
 @media screen and (min-width:300px) and (max-width:500px){
   

@@ -1,22 +1,22 @@
 
 import { Menubar } from 'primereact/menubar';
 import { Button } from 'primereact/button';
-import img from './Images/img_1.png'
-import img1 from './Images/img_3.jpg'
-import img2 from './Images/img_4.png'
-import img3 from './Images/img_5.png'
-import img4 from './Images/img_6.png'
+import img from '/Images/img_1.png'
+import img1 from '/Images/img_3.jpg'
+import img2 from '/Images/img_4.png'
+import img3 from '/Images/img_5.png'
+import img4 from '/Images/img_6.png'
 import { Card_set } from './Card_set';
-import img5 from './Images/img_7.png'
-import img6 from './Images/img_8.png'
-import img7 from './Images/img_9.png'
-import img8 from './Images/img_10.png'
-import img9 from './Images/img_11.png'
-import img10 from './Images/img_12.png'
-import img11 from './Images/img_13.png'
-import img14 from './Images/img_14.png'
-import img15 from './Images/img_15.png'
-import img16 from './Images/img_16.png'
+import img5 from '/Images/img_7.png'
+import img6 from '/Images/img_8.png'
+import img7 from '/Images/img_9.png'
+import img8 from '/Images/img_10.png'
+import img9 from '/Images/img_11.png'
+import img10 from '/Images/img_12.png'
+import img11 from '/Images/img_13.png'
+import img14 from '/Images/img_14.png'
+import img15 from '/Images/img_15.png'
+import img16 from '/Images/img_16.png'
 import { Swipe } from './Swipe';
 
 import { Divider } from 'primereact/divider';
